@@ -176,9 +176,6 @@
         <mxCell id="H-_MctJGM8OvFbxq7QqD-53" value="对比并计算&#xa;实际所需与&#xa;当前占用的&#xa;TT差额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-540" y="1100" width="105" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="H-_MctJGM8OvFbxq7QqD-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-56" target="H-_MctJGM8OvFbxq7QqD-59">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="H-_MctJGM8OvFbxq7QqD-56" value="对比并计算&#xa;实际所需与&#xa;当前占用的&#xa;OA差额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-150" y="1099" width="105" height="70" as="geometry" />
         </mxCell>
