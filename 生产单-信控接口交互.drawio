@@ -1,123 +1,101 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="2015" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1747" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="生产单行&#xa;解锁" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="170" y="8" width="92" height="54" as="geometry" />
+          <mxGeometry x="300" y="8" width="92" height="54" as="geometry" />
         </mxCell>
         <mxCell id="3" value="是否已经解锁" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="157" y="112" width="118" height="118" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="步骤 1" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="8" y="610" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="步骤 2" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="163" y="610" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="步骤 3" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="86" y="737" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="是否继续?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="120" y="841" width="124" height="124" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="结束" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="136" y="1038" width="92" height="54" as="geometry" />
+          <mxGeometry x="287" y="112" width="118" height="118" as="geometry" />
         </mxCell>
         <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="解锁" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="3" target="WXPWZEamO_XeSo7ibNBK-31" edge="1">
-          <mxGeometry x="-0.0895" y="9" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-31" value="是否已排产" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="163" y="320" width="118" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.18;entryY=0;" parent="1" source="4" target="6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="61" y="701" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.81;entryY=0;" parent="1" source="5" target="6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="216" y="701" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.25;entryY=0;" parent="1" source="6" target="7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="138" y="816" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="16" value="不是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="7" target="8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-31" value="是否已排产" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="582" y="200" width="118" height="118" as="geometry" />
-        </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-32" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WXPWZEamO_XeSo7ibNBK-31" target="WXPWZEamO_XeSo7ibNBK-33">
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-32" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WXPWZEamO_XeSo7ibNBK-31" target="WXPWZEamO_XeSo7ibNBK-33" edge="1">
           <mxGeometry x="0.0923" y="20" relative="1" as="geometry">
-            <mxPoint x="488" y="400" as="sourcePoint" />
-            <mxPoint x="310" y="380" as="targetPoint" />
+            <mxPoint x="618" y="400" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-33" value="提示&quot;不允许&quot;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="340" y="346" width="105" height="54" as="geometry" />
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-33" value="提示&quot;已排产&#xa;不允许解锁&quot;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="450" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-34" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="WXPWZEamO_XeSo7ibNBK-31">
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-34" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WXPWZEamO_XeSo7ibNBK-31" edge="1" target="Oj5pbkAsNvhmjypcsn9c-19">
           <mxGeometry x="-0.0623" relative="1" as="geometry">
-            <mxPoint x="250" y="340" as="sourcePoint" />
-            <mxPoint x="330" y="370" as="targetPoint" />
+            <mxPoint x="380" y="340" as="sourcePoint" />
+            <mxPoint x="460" y="370" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-35" value="步骤 2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="220" y="460" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-36" value="是否已排产" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="480" y="260" width="118" height="118" as="geometry" />
-        </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-40" value="生产单行&#xa;锁定" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-40" value="生产单行&#xa;锁定" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-177" y="30" width="92" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="WXPWZEamO_XeSo7ibNBK-40">
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="WXPWZEamO_XeSo7ibNBK-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="-131" y="134" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-42" value="是否已经锁定" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-42" value="是否已经锁定" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-190" y="134" width="118" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-43" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="WXPWZEamO_XeSo7ibNBK-42" target="WXPWZEamO_XeSo7ibNBK-44">
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-43" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="WXPWZEamO_XeSo7ibNBK-42" target="WXPWZEamO_XeSo7ibNBK-44" edge="1">
           <mxGeometry x="0.0923" y="20" relative="1" as="geometry">
             <mxPoint x="169" y="330" as="sourcePoint" />
             <mxPoint x="-240" y="330" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-44" value="提示&quot;已锁定&quot;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-44" value="提示&quot;已锁定&quot;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-295" y="330" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-45" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="WXPWZEamO_XeSo7ibNBK-46" source="WXPWZEamO_XeSo7ibNBK-42">
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-45" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="WXPWZEamO_XeSo7ibNBK-42" target="WXPWZEamO_XeSo7ibNBK-46" edge="1">
           <mxGeometry x="0.1489" y="-2" relative="1" as="geometry">
             <mxPoint x="-45" y="430" as="sourcePoint" />
             <mxPoint x="-95" y="567" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WXPWZEamO_XeSo7ibNBK-46" value="设置生产单行&#xa;锁定状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="330" width="105" height="54" as="geometry" />
+        <mxCell id="Oj5pbkAsNvhmjypcsn9c-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WXPWZEamO_XeSo7ibNBK-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WXPWZEamO_XeSo7ibNBK-46" value="设置生产单行为&#xa;【锁定】状态" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="450" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Oj5pbkAsNvhmjypcsn9c-16" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="WXPWZEamO_XeSo7ibNBK-31" source="3">
+          <mxGeometry x="0.0923" y="20" relative="1" as="geometry">
+            <mxPoint x="241" y="187" as="sourcePoint" />
+            <mxPoint x="188.5" y="324" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oj5pbkAsNvhmjypcsn9c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Oj5pbkAsNvhmjypcsn9c-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oj5pbkAsNvhmjypcsn9c-19" value="设置生产单行为&#xa;【解锁】状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Oj5pbkAsNvhmjypcsn9c-20" value="是" style="curved=1;startArrow=none;endArrow=block;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="Oj5pbkAsNvhmjypcsn9c-21" source="3">
+          <mxGeometry x="0.2233" y="-12" relative="1" as="geometry">
+            <mxPoint x="281" y="145" as="sourcePoint" />
+            <mxPoint x="514.5" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oj5pbkAsNvhmjypcsn9c-21" value="提示&quot;已解锁&quot;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="459.5" y="270" width="105" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
