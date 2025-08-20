@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="2253" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1778" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,75 @@
         </mxCell>
         <mxCell id="Oj5pbkAsNvhmjypcsn9c-21" value="提示&quot;已解锁&quot;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="459.5" y="270" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-9" target="H-_MctJGM8OvFbxq7QqD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-9" value="计算生产行&#xa;TT排产所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="670" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-19" target="H-_MctJGM8OvFbxq7QqD-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-18" value="冰箱" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-_MctJGM8OvFbxq7QqD-17">
+          <mxGeometry x="-0.2268" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-19" value="哪种模式" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="63.5" y="1050" width="118" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="378.5" y="1161" as="targetPoint" />
+            <mxPoint x="200" y="1080" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-21" value="洗衣机" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H-_MctJGM8OvFbxq7QqD-20">
+          <mxGeometry x="-0.2268" y="7" relative="1" as="geometry">
+            <mxPoint x="4" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-22" value="查询CRC&#xa;资金分配接口&#xa;获取当前行资金分配情况" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1180" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-23" target="H-_MctJGM8OvFbxq7QqD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-23" value="计算生产行&#xa;OA排产所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-24" target="H-_MctJGM8OvFbxq7QqD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-24" value="计算生产行&#xa;LC排产所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="670" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-34" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-26" target="H-_MctJGM8OvFbxq7QqD-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-26" target="H-_MctJGM8OvFbxq7QqD-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-26" target="H-_MctJGM8OvFbxq7QqD-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-40" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-26" target="H-_MctJGM8OvFbxq7QqD-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-26" value="查询生产单行&#xa;已出货数量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="780" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-33" value="根据比例计算出当前行排产&#xa;TT实际所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="890" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-35" value="根据比例计算出当前行排产&#xa;OA实际所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="890" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-39" value="根据比例计算出当前行排产&#xa;LC实际所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="890" width="105" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
