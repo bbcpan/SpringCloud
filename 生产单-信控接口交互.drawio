@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="1778" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2728" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,10 +127,10 @@
             <mxPoint x="4" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H-_MctJGM8OvFbxq7QqD-22" value="查询CRC&#xa;资金分配接口&#xa;获取当前行资金分配情况" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-22" value="查询CRC&#xa;资金分配接口&#xa;获取当前行&#xa;资金分配情况" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-190" y="1180" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="H-_MctJGM8OvFbxq7QqD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-23" target="H-_MctJGM8OvFbxq7QqD-26">
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H-_MctJGM8OvFbxq7QqD-23" target="H-_MctJGM8OvFbxq7QqD-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H-_MctJGM8OvFbxq7QqD-23" value="计算生产行&#xa;OA排产所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -157,13 +157,13 @@
         <mxCell id="H-_MctJGM8OvFbxq7QqD-26" value="查询生产单行&#xa;已出货数量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="70" y="780" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="H-_MctJGM8OvFbxq7QqD-33" value="根据比例计算出当前行排产&#xa;TT实际所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-33" value="根据比例计算出&#xa;当前行排产&#xa;实际TT所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-120" y="890" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="H-_MctJGM8OvFbxq7QqD-35" value="根据比例计算出当前行排产&#xa;OA实际所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-35" value="根据比例计算出&#xa;当前行排产&#xa;实际OA所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="70" y="890" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="H-_MctJGM8OvFbxq7QqD-39" value="根据比例计算出当前行排产&#xa;LC实际所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-39" value="根据比例计算出&#xa;当前行排产&#xa;实际LC所需金额" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="260" y="890" width="105" height="54" as="geometry" />
         </mxCell>
       </root>
