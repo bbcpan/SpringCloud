@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="4496" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5901" dy="2534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,12 +310,9 @@
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-46" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;.e.g&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TT+OA混合付款方式，TT所需100，OA所需200；&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;特批进入排产的，不管出货情况如何，生产单行的实际占用资金始终为0（通过正负对冲的方式）&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，使用MO-FORCE-LOCK进行锁定；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) 无任何出货&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-200;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）出货四分之一数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-200;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）出货全部数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-200;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" parent="1" vertex="1">
           <mxGeometry x="-2570" y="1984" width="250" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="hXp6u4deNf6OwjrOZaaQ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hXp6u4deNf6OwjrOZaaQ-55" target="hXp6u4deNf6OwjrOZaaQ-68" edge="1">
+        <mxCell id="hXp6u4deNf6OwjrOZaaQ-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hXp6u4deNf6OwjrOZaaQ-55" target="hXp6u4deNf6OwjrOZaaQ-68" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-980" y="2040" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-964" y="1894" />
-            </Array>
+            <mxPoint x="-796" y="2040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-69" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hXp6u4deNf6OwjrOZaaQ-57" vertex="1" connectable="0">
@@ -332,15 +329,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-55" value="是否已排产" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-803" y="1854" width="80" height="80" as="geometry" />
+          <mxGeometry x="-742.5" y="1644" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-59" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;.e.g&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TT+OA混合付款方式，TT所需100，OA所需200；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;正常进入排产的（非特批），生产单行的实际有效占用随着出货情况变化，完全出货后，有效占用变为0，都转移到到DO上或者发票上，最后核销掉&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（通过正负对冲的方式）&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，使用MO-FORCE-LOCK进行锁定；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;1)&amp;nbsp; 无任何出货&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）出货四分之一数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-25;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-50;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）出货全部数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-200;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="-2150" y="1984" width="250" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="hXp6u4deNf6OwjrOZaaQ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hXp6u4deNf6OwjrOZaaQ-60" target="H-_MctJGM8OvFbxq7QqD-74" edge="1">
+        <mxCell id="hXp6u4deNf6OwjrOZaaQ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hXp6u4deNf6OwjrOZaaQ-60" target="H-_MctJGM8OvFbxq7QqD-74" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1666" y="1894" />
+              <mxPoint x="-1635" y="1850" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -349,12 +346,12 @@
             <mxPoint x="-3" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hXp6u4deNf6OwjrOZaaQ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hXp6u4deNf6OwjrOZaaQ-60" target="hXp6u4deNf6OwjrOZaaQ-65" edge="1">
+        <mxCell id="hXp6u4deNf6OwjrOZaaQ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hXp6u4deNf6OwjrOZaaQ-60" target="hXp6u4deNf6OwjrOZaaQ-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1363" y="1894" as="sourcePoint" />
             <mxPoint x="-1230.75" y="2634" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1253" y="1894" />
+              <mxPoint x="-1275" y="1850" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -364,24 +361,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-60" value="是否有特批" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-1502" y="1854" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1502" y="1810" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-65" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.e.g&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TT+OA混合付款方式，TT所需100，OA所需200；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;非特批未排产，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;生产单行的实际有效占用随着出货情况变化，完全出货后，有效占用变为0，都转移到到DO上或者发票上，最后核销掉&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（通过正负对冲的方式），使用MO-TRY-LOCK进行锁定；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;1) 无任何出货&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-TRY-LOCK&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/100;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RESERVE/200;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）出货四分之一数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-TRY-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-25;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-TRY-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-50;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）出货全部数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-TRY-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-TRY-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-200;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="1982" width="250" height="380" as="geometry" />
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-68" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;生成下面的所需资金动作场景记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.e.g OA付款方式 出货全部数量，排产资金实际占用为0：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;62xxxxx001/USD/TT/MO-SCHEDULED-LOCK-UP/100;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;62xxxxx001/USD/TT/&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MO-RELEASE&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/-100;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="2080" width="375" height="100" as="geometry" />
+          <mxGeometry x="-827" y="1984" width="250" height="380" as="geometry" />
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-72" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;生成下面的所需资金动作场景记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.e.g OA付款方式 出货全部数量，排产资金实际占用为0：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;62xxxxx001/USD/TT/MO-SCHEDULED-LOCK-UP/100;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;62xxxxx001/USD/TT/&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MO-RELEASE&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/-100;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-832.5" y="2370" width="375" height="100" as="geometry" />
+          <mxGeometry x="-455" y="1990" width="250" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="hXp6u4deNf6OwjrOZaaQ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hXp6u4deNf6OwjrOZaaQ-73" target="hXp6u4deNf6OwjrOZaaQ-72" edge="1">
+        <mxCell id="hXp6u4deNf6OwjrOZaaQ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hXp6u4deNf6OwjrOZaaQ-73" target="hXp6u4deNf6OwjrOZaaQ-72" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-612.56" y="1920" as="sourcePoint" />
-            <mxPoint x="-617.435" y="2241" as="targetPoint" />
+            <mxPoint x="-428.55999999999995" y="1920" as="sourcePoint" />
+            <mxPoint x="-433.43499999999995" y="2241" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-615" y="2290" />
-              <mxPoint x="-615" y="2290" />
+              <mxPoint x="-330" y="1970" />
+              <mxPoint x="-330" y="1970" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -392,7 +389,7 @@
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hXp6u4deNf6OwjrOZaaQ-73" target="hXp6u4deNf6OwjrOZaaQ-79" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-200" y="2370" as="targetPoint" />
+            <mxPoint x="-16" y="2370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-80" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hXp6u4deNf6OwjrOZaaQ-78" vertex="1" connectable="0">
@@ -401,10 +398,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-73" value="是否特批" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-655" y="1984" width="80" height="80" as="geometry" />
+          <mxGeometry x="-370" y="1644" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hXp6u4deNf6OwjrOZaaQ-79" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;生成下面的所需资金动作场景记录&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.e.g OA付款方式 出货全部数量，排产资金实际占用为0：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;62xxxxx001/USD/TT/MO-SCHEDULED-LOCK-UP/100;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;62xxxxx001/USD/TT/&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MO-RELEASE&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/-100;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-375" y="2370" width="375" height="100" as="geometry" />
+          <mxGeometry x="-60" y="1990" width="250" height="380" as="geometry" />
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-9" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="-1058" y="1361" width="30" height="30" as="geometry" />
