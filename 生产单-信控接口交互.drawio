@@ -259,11 +259,12 @@
         <mxCell id="H-_MctJGM8OvFbxq7QqD-74" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;.e.g&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TT+OA混合付款方式，TT所需100，OA所需200；&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;特批但未排产，不管出货情况如何，生产单行的实际占用资金始终为0；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1) 无任何出货&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-200;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）出货四分之一数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-200;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）出货全部数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-LOCK/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-RELEASE/-100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-200;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-1760" y="1982" width="250" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="H-_MctJGM8OvFbxq7QqD-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H-_MctJGM8OvFbxq7QqD-80" target="H-_MctJGM8OvFbxq7QqD-65" edge="1">
+        <mxCell id="H-_MctJGM8OvFbxq7QqD-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="H-_MctJGM8OvFbxq7QqD-80" target="H-_MctJGM8OvFbxq7QqD-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1413" y="1490" />
+              <mxPoint x="-1411" y="1490" />
             </Array>
+            <mxPoint x="-1400" y="1610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H-_MctJGM8OvFbxq7QqD-83" value="TT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="H-_MctJGM8OvFbxq7QqD-82" vertex="1" connectable="0">
