@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="5209" dy="2170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4405" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,7 +208,7 @@
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-14" value="洗衣机模式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hXp6u4deNf6OwjrOZaaQ-56">
           <mxGeometry x="-0.4195" y="2" relative="1" as="geometry">
-            <mxPoint x="-1" y="-12" as="offset" />
+            <mxPoint x="42" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H-_MctJGM8OvFbxq7QqD-59" value="哪个模式？" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#ff0000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#ffffc0;" parent="1" vertex="1">
