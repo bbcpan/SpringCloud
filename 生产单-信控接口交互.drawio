@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="3500" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4858" dy="2421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -539,65 +539,6 @@
         <mxCell id="qtlfo_P8GEl0v9TGqo05-62" value="查询生产单行&#xa;已出货/已资金占用数量" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="327.75" y="4318" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qtlfo_P8GEl0v9TGqo05-64" target="qtlfo_P8GEl0v9TGqo05-78" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-64" value="根据比例计算出&#xa;当前行排产&#xa;实际TT所需金额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="3020" y="3016" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qtlfo_P8GEl0v9TGqo05-66" target="qtlfo_P8GEl0v9TGqo05-79" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-66" value="根据比例计算出&#xa;当前行排产&#xa;实际OA所需金额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="3210" y="3016" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-67" value="根据比例计算出&#xa;当前行排产&#xa;实际LC所需金额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="3400" y="3016" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-68" value="查询CRC接口&#xa;获取当前行&#xa;资金分配情况" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="4210" y="2770" width="105" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-69" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="qtlfo_P8GEl0v9TGqo05-74" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4216" y="2836" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="qtlfo_P8GEl0v9TGqo05-76" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4263" y="2836" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="qtlfo_P8GEl0v9TGqo05-76" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4263" y="2836" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-72" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="qtlfo_P8GEl0v9TGqo05-77" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4309" y="2836" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qtlfo_P8GEl0v9TGqo05-74" target="qtlfo_P8GEl0v9TGqo05-78" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-74" value="TT当前占用金额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="4020" y="2892" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qtlfo_P8GEl0v9TGqo05-76" target="qtlfo_P8GEl0v9TGqo05-79" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-76" value="OA当前占用金额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="4210" y="2892" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-77" value="LC当前占用金额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="4400" y="2892" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-78" value="对比并计算&#xa;实际所需与&#xa;当前占用的&#xa;TT差额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="3705" y="3158" width="105" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-79" value="对比并计算&#xa;实际所需与&#xa;当前占用的&#xa;OA差额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="4095" y="3157" width="105" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-80" value="OA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qtlfo_P8GEl0v9TGqo05-100" target="qtlfo_P8GEl0v9TGqo05-85" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="649" y="4997" as="targetPoint" />
@@ -737,6 +678,9 @@
           <mxGeometry x="0.1382" y="77" relative="1" as="geometry">
             <mxPoint x="-8" y="78" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LClMoxTg7fPENzSmNWcw-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qtlfo_P8GEl0v9TGqo05-111" target="LClMoxTg7fPENzSmNWcw-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-111" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;差值计算结果：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;所需资金清单vs占用资金清单&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;计算出调用信控中心的请求参数&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2310" y="4168" width="220" height="180" as="geometry" />
@@ -886,6 +830,9 @@
             <mxPoint x="2855.000000000001" y="4739" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="LClMoxTg7fPENzSmNWcw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LClMoxTg7fPENzSmNWcw-19" target="LClMoxTg7fPENzSmNWcw-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LClMoxTg7fPENzSmNWcw-19" value="&lt;div style=&quot;text-align: left;&quot;&gt;查询信控返回：&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;62xxxxx001/USD/OA/&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;MO&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;SUBMIT&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;/300;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2895" y="4780" width="270" height="300" as="geometry" />
         </mxCell>
@@ -894,6 +841,9 @@
         </mxCell>
         <mxCell id="LClMoxTg7fPENzSmNWcw-26" value="付款方式变更场景&lt;div&gt;OA -&amp;gt; TT+OA&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2800" y="4710" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LClMoxTg7fPENzSmNWcw-28" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;调用信控的资金占用接口&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="4168" width="220" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
