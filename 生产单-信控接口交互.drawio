@@ -450,19 +450,22 @@
         <mxCell id="teDsaljcc8NzX14ztvXM-7" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="123" y="2748" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="teDsaljcc8NzX14ztvXM-8" value="生产单行&#xa;锁定操作" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="3869" width="92" height="54" as="geometry" />
+        <mxCell id="teDsaljcc8NzX14ztvXM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="teDsaljcc8NzX14ztvXM-8" target="teDsaljcc8NzX14ztvXM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-8" value="生产单行&#xa;刷新OA/TT占用操作" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="2897" width="92" height="54" as="geometry" />
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-9" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="-679" y="3780" width="30" height="30" as="geometry" />
+          <mxGeometry x="721" y="2808" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=middle;endArrow=classic;endSize=8;strokeColor=default;rounded=0;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="teDsaljcc8NzX14ztvXM-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-664" y="3869" as="targetPoint" />
+            <mxPoint x="736" y="2897" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-11" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-678.5" y="3720" width="30" height="60" as="geometry" />
+          <mxGeometry x="721.5" y="2748" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
