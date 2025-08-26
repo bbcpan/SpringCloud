@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="9611" dy="4924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5650" dy="2838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -482,7 +482,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="qtlfo_P8GEl0v9TGqo05-52" target="qtlfo_P8GEl0v9TGqo05-36" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="3900" />
+              <mxPoint x="684" y="3900" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-51" value="锁定状态下&lt;div&gt;按【行单价】*【行数量】*【付款比例】&lt;/div&gt;&lt;div&gt;计算排产理论所需金额&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qtlfo_P8GEl0v9TGqo05-50" vertex="1" connectable="0">
           <mxGeometry x="-0.0198" y="-1" relative="1" as="geometry">
