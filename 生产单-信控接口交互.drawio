@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="4031" dy="-1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2317" dy="-1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -483,6 +483,15 @@
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-18" value="实时查询特批" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="348.75" y="4130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1599.25" y="4130" as="targetPoint" />
+            <mxPoint x="1599.5" y="4034" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-20" value="实时查询信控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1539.5" y="4130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
