@@ -270,9 +270,6 @@
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H-_MctJGM8OvFbxq7QqD-80" target="qtlfo_P8GEl0v9TGqo05-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="H-_MctJGM8OvFbxq7QqD-80" value="付款方式" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#ff0000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#ffffc0;" parent="1" vertex="1">
           <mxGeometry x="-833" y="1139" width="80" height="80" as="geometry" />
         </mxCell>
@@ -425,22 +422,6 @@
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-25" value="查询生产单行&#xa;取消数量" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-1253.75" y="790" width="105" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qtlfo_P8GEl0v9TGqo05-28" target="qtlfo_P8GEl0v9TGqo05-32" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="1670" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-31" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qtlfo_P8GEl0v9TGqo05-30" vertex="1" connectable="0">
-          <mxGeometry x="-0.0018" y="-3" relative="1" as="geometry">
-            <mxPoint x="-3" y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-28" value="是否已排产" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#ff0000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#ffffc0;" parent="1" vertex="1">
-          <mxGeometry x="710" y="1333" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-32" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;.e.g&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;LC&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;付款方式，LC所需200；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;已排产的，生产单行的实际有效占用随着出货情况变化，完全出货后，有效占用变为0，都转移到到DO上或者发票上，最后核销掉&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（通过正负对冲的方式）&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，使用MO-FORCE-LOCK进行锁定；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;1)&amp;nbsp; 无任何出货&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）出货四分之一数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-50;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）出货全部数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-LOCK/200;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-RELEASE/-200;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="625" y="1671" width="250" height="380" as="geometry" />
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qtlfo_P8GEl0v9TGqo05-34" target="qtlfo_P8GEl0v9TGqo05-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
