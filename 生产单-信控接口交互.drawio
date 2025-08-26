@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="3012" dy="-1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7358" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -509,7 +509,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="teDsaljcc8NzX14ztvXM-23" value="生产单数量变更/价格变更/付款方式变更等" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="teDsaljcc8NzX14ztvXM-23" value="生产单数量变更" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="930" y="2897" width="92" height="54" as="geometry" />
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-24" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -534,8 +534,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="teDsaljcc8NzX14ztvXM-29" value="事件/调度入口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1195" y="2897" width="92" height="54" as="geometry" />
+        <mxCell id="teDsaljcc8NzX14ztvXM-29" value="&#xa;DO提交事件&#xa;工单排产事件&#xa;排产特批审批通过事件&#xa;一体化变更事件（价格/付款方式）&#xa;定时任务等&#xa;" style="whiteSpace=wrap;strokeWidth=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="2897" width="200" height="93" as="geometry" />
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-30" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="1226" y="2808" width="30" height="30" as="geometry" />
@@ -546,9 +546,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-35" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="880" y="2990" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="teDsaljcc8NzX14ztvXM-36" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="2990" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-38" value="MQ消息&lt;div&gt;或者&lt;div&gt;定时任务&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
