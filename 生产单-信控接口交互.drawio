@@ -412,13 +412,13 @@
         <mxCell id="qtlfo_P8GEl0v9TGqo05-25" value="查询生产单行&#xa;取消数量" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-1253.75" y="790" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qtlfo_P8GEl0v9TGqo05-34" target="qtlfo_P8GEl0v9TGqo05-107" edge="1">
+        <mxCell id="qtlfo_P8GEl0v9TGqo05-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="qtlfo_P8GEl0v9TGqo05-34" target="qtlfo_P8GEl0v9TGqo05-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="142.5" y="4285" width="775" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qtlfo_P8GEl0v9TGqo05-36" target="qtlfo_P8GEl0v9TGqo05-107" edge="1">
+        <mxCell id="qtlfo_P8GEl0v9TGqo05-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="qtlfo_P8GEl0v9TGqo05-36" target="qtlfo_P8GEl0v9TGqo05-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
