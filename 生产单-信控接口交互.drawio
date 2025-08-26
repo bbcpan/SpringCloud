@@ -531,7 +531,7 @@
         <mxCell id="qtlfo_P8GEl0v9TGqo05-60" value="计算生产行&#xa;OA排产所需金额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="749" y="4146" width="105" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="qtlfo_P8GEl0v9TGqo05-62" value="查询生产单行&#xa;已出货数量" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="qtlfo_P8GEl0v9TGqo05-62" value="查询生产单行&#xa;已出货/已资金占用数量" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="327.75" y="4318" width="105" height="54" as="geometry" />
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qtlfo_P8GEl0v9TGqo05-64" target="qtlfo_P8GEl0v9TGqo05-78" edge="1">
