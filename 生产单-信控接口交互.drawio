@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="4247" dy="-973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4031" dy="-1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,6 +118,11 @@
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-60" value="计算生产行&#xa;OA排产所需金额" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="319.5" y="3843" width="105" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="qtlfo_P8GEl0v9TGqo05-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109.75" y="4130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-62" value="查询生产单行&#xa;已出货/已资金占用数量" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="57.25" y="3980" width="105" height="54" as="geometry" />
@@ -466,6 +471,18 @@
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-11" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="721.5" y="2748" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-16" value="实时查询DO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="4130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.5" y="4130" as="targetPoint" />
+            <mxPoint x="408.75" y="4034" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-18" value="实时查询特批" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348.75" y="4130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
