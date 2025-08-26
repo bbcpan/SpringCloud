@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="4506" dy="-836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3332" dy="-1454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -500,6 +500,59 @@
         </mxCell>
         <mxCell id="teDsaljcc8NzX14ztvXM-20" value="实时查询信控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1539.5" y="4130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="teDsaljcc8NzX14ztvXM-23" target="teDsaljcc8NzX14ztvXM-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="976" y="3550" />
+              <mxPoint x="260" y="3550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-23" value="生产单数量变更/价格变更/付款方式变更等" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2897" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-24" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="961" y="2808" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=middle;endArrow=classic;endSize=8;strokeColor=default;rounded=0;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="teDsaljcc8NzX14ztvXM-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="976" y="2897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-26" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="961.5" y="2748" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-28" value="省略变更操作细节" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902" y="3137" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="teDsaljcc8NzX14ztvXM-29" target="teDsaljcc8NzX14ztvXM-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="3640" />
+              <mxPoint x="260" y="3640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-29" value="事件/调度入口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="2897" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-30" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1226" y="2808" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=middle;endArrow=classic;endSize=8;strokeColor=default;rounded=0;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1" source="teDsaljcc8NzX14ztvXM-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1241" y="2897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-35" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-36" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="teDsaljcc8NzX14ztvXM-38" value="MQ消息&lt;div&gt;或者&lt;div&gt;定时任务&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="2770" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
