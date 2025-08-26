@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="2LrY0oIoNR_cmH2NyaTJ" name="第 1 页">
-    <mxGraphModel dx="3669" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3907" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -665,8 +665,8 @@
         <mxCell id="qtlfo_P8GEl0v9TGqo05-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;dashed=1;" parent="1" source="qtlfo_P8GEl0v9TGqo05-96" target="qtlfo_P8GEl0v9TGqo05-124" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="15" y="5580" />
-              <mxPoint x="438" y="5580" />
+              <mxPoint x="15" y="5590" />
+              <mxPoint x="448" y="5590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -766,7 +766,7 @@
           <mxGeometry x="940" y="4861" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-118" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;.e.g&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TT+OA混合付款方式，TT所需100，OA所需200；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;正常进入排产的（非特批），&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;生产单行的实际占用金额随着出货数量/取消数量情况变化，完全出货后，MO有效占用变为0，都转移到到DO上&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，使用MO-FORCE-SUBMIT进行锁定；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;1) 无任何出货&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-SUBMIT/100;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-SUBMIT/200;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）出货四分之一数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-SUBMIT/75;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-SUBMIT/150;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）出货全部数量&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/TT/MO-FORCE-SUBMIT/0;&lt;/div&gt;&lt;div&gt;62xxxxx001/USD/OA/MO-FORCE-SUBMIT/0;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-505.5" y="5199" width="270" height="300" as="geometry" />
+          <mxGeometry x="-506.5" y="5199" width="270" height="300" as="geometry" />
         </mxCell>
         <mxCell id="qtlfo_P8GEl0v9TGqo05-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qtlfo_P8GEl0v9TGqo05-123" target="qtlfo_P8GEl0v9TGqo05-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
