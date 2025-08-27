@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="C5NioDderLb10LAesJQF" name="第 1 页">
-    <mxGraphModel dx="2015" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1397" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C7deDFVK92EXtW-6BP_k-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1200" width="1460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="C7deDFVK92EXtW-6BP_k-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="860" width="1460" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="bJO9nJOLajhvGZVp3YKl-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="-30" y="80" width="1460" height="690" as="geometry" />
         </mxCell>
@@ -35,11 +41,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9" value="查询62码下单数量/工单排产情况" style="curved=1;endArrow=block;" parent="1" source="3" target="3" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0607" y="88" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="412" y="159" />
               <mxPoint x="412" y="189" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="10" value="查询已出货/已提交/已资金占用数量" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="3" target="4" edge="1">
@@ -157,6 +164,17 @@
         </mxCell>
         <mxCell id="bJO9nJOLajhvGZVp3YKl-23" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C7deDFVK92EXtW-6BP_k-25" value="触发[刷新TT/OA资金占用]" style="curved=1;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.06" y="68" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413.67647058823536" y="1100" />
+              <mxPoint x="413.67647058823536" y="1130" />
+            </Array>
+            <mxPoint x="362" y="1100" as="sourcePoint" />
+            <mxPoint x="362" y="1130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
