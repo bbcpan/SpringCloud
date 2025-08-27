@@ -1,35 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram id="C5NioDderLb10LAesJQF" name="第 1 页">
-    <mxGraphModel dx="2505" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C7deDFVK92EXtW-6BP_k-26" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1480" width="1460" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="C7deDFVK92EXtW-6BP_k-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="1200" width="1460" height="170" as="geometry" />
+          <mxGeometry x="-30" y="843" width="1460" height="170" as="geometry" />
         </mxCell>
         <mxCell id="C7deDFVK92EXtW-6BP_k-23" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="860" width="1460" height="300" as="geometry" />
+          <mxGeometry x="-30" y="1086" width="1460" height="300" as="geometry" />
         </mxCell>
         <mxCell id="bJO9nJOLajhvGZVp3YKl-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="-30" y="80" width="1460" height="690" as="geometry" />
         </mxCell>
         <mxCell id="2" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
-          <mxGeometry width="150" height="1500" as="geometry" />
+          <mxGeometry width="150" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="3" value="MO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
-          <mxGeometry x="286" width="150" height="1500" as="geometry" />
+          <mxGeometry x="286" width="150" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="4" value="DO" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
-          <mxGeometry x="610" width="150" height="1500" as="geometry" />
+          <mxGeometry x="610" width="150" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="5" value="SpecialApproval" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
-          <mxGeometry x="810" width="150" height="1500" as="geometry" />
+          <mxGeometry x="810" width="150" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="6" value="CreditControlCenter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
-          <mxGeometry x="1010" width="162" height="1500" as="geometry" />
+          <mxGeometry x="1010" width="162" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="7" value="MQ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" parent="1" vertex="1">
-          <mxGeometry x="1222" width="150" height="1500" as="geometry" />
+          <mxGeometry x="1222" width="150" height="1800" as="geometry" />
         </mxCell>
         <mxCell id="8" value="调用[刷新TT/OA资金占用]接口" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -121,47 +124,47 @@
         <mxCell id="19" value="发送已出货/已提交/已资金占用数量更新消息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1000" y="958" />
+              <mxPoint x="1000" y="1184" />
             </Array>
-            <mxPoint x="684.3235294117649" y="958" as="sourcePoint" />
-            <mxPoint x="1296.5" y="958" as="targetPoint" />
+            <mxPoint x="684.3235294117649" y="1184" as="sourcePoint" />
+            <mxPoint x="1296.5" y="1184" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="20" value="发送MO特批状态更新消息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1100" y="1010" />
+              <mxPoint x="1100" y="1236" />
             </Array>
-            <mxPoint x="884.3235294117649" y="1010" as="sourcePoint" />
-            <mxPoint x="1296.5" y="1010" as="targetPoint" />
+            <mxPoint x="884.3235294117649" y="1236" as="sourcePoint" />
+            <mxPoint x="1296.5" y="1236" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="21" value="订阅消息并触发第一个流程" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="841" y="1062" />
+              <mxPoint x="841" y="1288" />
             </Array>
-            <mxPoint x="1296.5" y="1062" as="sourcePoint" />
-            <mxPoint x="360.32352941176464" y="1062" as="targetPoint" />
+            <mxPoint x="1296.5" y="1288" as="sourcePoint" />
+            <mxPoint x="360.32352941176464" y="1288" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="22" value="调用[锁定/解锁]接口" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="227" y="1237" />
+              <mxPoint x="227" y="880" />
             </Array>
-            <mxPoint x="74.32352941176464" y="1237" as="sourcePoint" />
-            <mxPoint x="360.5" y="1237" as="targetPoint" />
+            <mxPoint x="74.32352941176464" y="880" as="sourcePoint" />
+            <mxPoint x="360.5" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="23" value="触发[刷新TT/OA资金占用]" style="curved=1;endArrow=block;" parent="1" edge="1">
           <mxGeometry x="-0.06" y="68" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="412" y="1289" />
-              <mxPoint x="412" y="1319" />
+              <mxPoint x="412" y="932" />
+              <mxPoint x="412" y="962" />
             </Array>
-            <mxPoint x="360.32352941176464" y="1289" as="sourcePoint" />
-            <mxPoint x="360.32352941176464" y="1319" as="targetPoint" />
+            <mxPoint x="360.32352941176464" y="932" as="sourcePoint" />
+            <mxPoint x="360.32352941176464" y="962" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -171,11 +174,33 @@
         <mxCell id="C7deDFVK92EXtW-6BP_k-25" value="触发[刷新TT/OA资金占用]" style="curved=1;endArrow=block;" edge="1" parent="1">
           <mxGeometry x="-0.06" y="68" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="413.67647058823536" y="1100" />
-              <mxPoint x="413.67647058823536" y="1130" />
+              <mxPoint x="413.67647058823536" y="1326" />
+              <mxPoint x="413.67647058823536" y="1356" />
             </Array>
-            <mxPoint x="362" y="1100" as="sourcePoint" />
-            <mxPoint x="362" y="1130" as="targetPoint" />
+            <mxPoint x="362" y="1326" as="sourcePoint" />
+            <mxPoint x="362" y="1356" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C7deDFVK92EXtW-6BP_k-30" value="触发[刷新TT/OA资金占用]" style="curved=1;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.06" y="68" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413.67647058823536" y="1694" />
+              <mxPoint x="413.67647058823536" y="1724" />
+            </Array>
+            <mxPoint x="362" y="1694" as="sourcePoint" />
+            <mxPoint x="362" y="1724" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C7deDFVK92EXtW-6BP_k-33" value="定时任务" style="curved=1;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="-0.075" y="36" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413.67647058823536" y="1580" />
+              <mxPoint x="413.67647058823536" y="1610" />
+            </Array>
+            <mxPoint x="362" y="1580" as="sourcePoint" />
+            <mxPoint x="362" y="1610" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
