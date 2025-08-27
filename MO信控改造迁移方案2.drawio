@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram id="nr3B3P05Gqcd-BoVn8Ju" name="第 1 页">
+    <mxGraphModel dx="1188" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="查询信控中心，62行当前的MO号是否有占用记录" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="163" y="8" width="267" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="调用信控中心的资金占用接口，先把这部分对冲为0" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="8" y="159" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="针对当前这个62行进行资金占用" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="318" y="159" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="此MO下全部62行重新作一次资金占用调用" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="8" y="287" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="有" style="curved=1;startArrow=none;endArrow=block;exitX=0.19;exitY=1;entryX=0.5;entryY=0;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="138" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="没有" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=1;entryX=0.5;entryY=0;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
