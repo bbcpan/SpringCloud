@@ -64,11 +64,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="12" value="计算TT和OA的排产实际所需金额" style="curved=1;endArrow=block;" parent="1" source="3" target="3" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry y="88" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="412" y="345" />
               <mxPoint x="412" y="375" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="13" value="查询当前62码已占用资金详情" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" source="3" target="6" edge="1">
