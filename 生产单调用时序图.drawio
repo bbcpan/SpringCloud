@@ -144,7 +144,7 @@
             <mxPoint x="360.5" y="1055" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="23" value="触发第一个流程" style="curved=1;endArrow=block;" parent="1" edge="1">
+        <mxCell id="23" value="触发[刷新TT/OA资金占用]" style="curved=1;endArrow=block;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="412" y="1107" />
