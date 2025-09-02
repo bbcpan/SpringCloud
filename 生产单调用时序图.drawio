@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram id="C5NioDderLb10LAesJQF" name="第 1 页">
-    <mxGraphModel dx="2253" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2185" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -259,44 +259,31 @@
             <mxPoint x="360.49999999999955" y="912" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="44k8Kka1oQMNb_DbVLvx-26" value="查询62码下单数量/工单排产情况" style="curved=1;endArrow=block;" edge="1" parent="1">
-          <mxGeometry x="-0.0607" y="88" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="412" y="949" />
-              <mxPoint x="412" y="979" />
-            </Array>
-            <mxPoint as="offset" />
-            <mxPoint x="360" y="949" as="sourcePoint" />
-            <mxPoint x="360" y="979" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="44k8Kka1oQMNb_DbVLvx-27" value="查询已出货/已提交/已资金占用数量" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+        <mxCell id="44k8Kka1oQMNb_DbVLvx-27" value="指定本次数量&#xa;查询MO62码的预计资金占用列表" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="532" y="1031" />
+              <mxPoint x="532" y="980" />
             </Array>
-            <mxPoint x="360" y="1031" as="sourcePoint" />
-            <mxPoint x="685" y="1031" as="targetPoint" />
+            <mxPoint x="685" y="980" as="sourcePoint" />
+            <mxPoint x="360" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="44k8Kka1oQMNb_DbVLvx-28" value="查询MO特批状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
+        <mxCell id="44k8Kka1oQMNb_DbVLvx-28" value="调用信控的资金占用接口" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="632" y="1083" />
-            </Array>
-            <mxPoint x="360" y="1083" as="sourcePoint" />
-            <mxPoint x="885" y="1083" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="684.6666666666665" y="1129.9999999999998" as="sourcePoint" />
+            <mxPoint x="885" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="44k8Kka1oQMNb_DbVLvx-29" value="计算TT和OA的排产实际所需金额" style="curved=1;endArrow=block;" edge="1" parent="1">
-          <mxGeometry y="88" relative="1" as="geometry">
+        <mxCell id="44k8Kka1oQMNb_DbVLvx-29" value="组合MO返回结果与&#xa;DO自身资金占用列表" style="curved=1;endArrow=block;" edge="1" parent="1" source="4" target="4">
+          <mxGeometry x="0.069" y="58" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="412" y="1135" />
-              <mxPoint x="412" y="1165" />
+              <mxPoint x="742" y="1030" />
+              <mxPoint x="742" y="1060" />
             </Array>
             <mxPoint as="offset" />
-            <mxPoint x="360" y="1135" as="sourcePoint" />
-            <mxPoint x="360" y="1165" as="targetPoint" />
+            <mxPoint x="690" y="1030" as="sourcePoint" />
+            <mxPoint x="690" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="44k8Kka1oQMNb_DbVLvx-30" value="查询当前62码已占用资金详情" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1">
