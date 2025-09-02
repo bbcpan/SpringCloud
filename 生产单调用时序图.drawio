@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram id="C5NioDderLb10LAesJQF" name="第 1 页">
-    <mxGraphModel dx="2253" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1846" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,16 +144,7 @@
             <mxPoint x="358.6428571428569" y="786" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19" value="发送已出货/已提交/已资金占用数量更新消息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1000" y="2124" />
-            </Array>
-            <mxPoint x="684.3235294117649" y="2124" as="sourcePoint" />
-            <mxPoint x="1296.5" y="2124" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20" value="发送MO特批状态更新消息" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" edge="1">
+        <mxCell id="20" value="发送MO排产特批失效事件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1100" y="2176" />
@@ -162,7 +153,7 @@
             <mxPoint x="1296.5" y="2176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="21" value="订阅消息并触发第一个流程" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" parent="1" edge="1">
+        <mxCell id="21" value="消费MO排产特批审批通过或者失效事件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;endArrow=block;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="841" y="2228" />
@@ -286,7 +277,7 @@
             <mxPoint x="690" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="44k8Kka1oQMNb_DbVLvx-30" value="消费DO(带62码)分配释放资金事件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;exitX=0.52;exitY=0.435;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="44k8Kka1oQMNb_DbVLvx-30" value="消费DO(带62码)分配/释放资金事件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;exitX=0.52;exitY=0.435;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="0.5749" y="3" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="735" y="1226" />
@@ -332,13 +323,23 @@
         <mxCell id="44k8Kka1oQMNb_DbVLvx-37" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;DO&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;分配资金场景&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-170" y="1180" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="44k8Kka1oQMNb_DbVLvx-38" value="发送DO(带62码)分配释放资金事件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="4" target="7">
+        <mxCell id="44k8Kka1oQMNb_DbVLvx-38" value="发送DO(带62码)分配/释放资金事件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="4" target="7">
           <mxGeometry x="-0.0022" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="905.6764705882351" y="1180" />
             </Array>
             <mxPoint x="690" y="1180" as="sourcePoint" />
             <mxPoint x="1090" y="1180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="44k8Kka1oQMNb_DbVLvx-40" value="发送MO排产特批审批通过事件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="0.0017" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100.5864705882352" y="2100" />
+            </Array>
+            <mxPoint x="884.91" y="2100" as="sourcePoint" />
+            <mxPoint x="1297.0864705882352" y="2100" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
